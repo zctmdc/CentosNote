@@ -114,13 +114,6 @@ yum install -y libdvdcss gstreamer{,1}-plugins-ugly \gstreamer-plugins-bad-nonfr
 sudo yum -y install adobe-source-code-pro-fonts
 
 
-
-###########################################
-cd javaEdition
-bash javaInstall.sh
-###########################################
-cd ../SogouInputInstall
-bash install.sh
 echo -e "\n\n更新引导么?推荐!\n" 
 read -p "Your input : " yn
 if [[ "$yu" == "yes" ]]; then

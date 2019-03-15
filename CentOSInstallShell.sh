@@ -1,7 +1,5 @@
-
-
-mkdir /opt/centos-yum.bak
-cp /etc/yum.repos.d/* /opt/centos-yum.bak/
+#mkdir /opt/centos-yum.bak
+#mv /etc/yum.repos.d/* /opt/centos-yum.bak/
 wget -O /etc/yum.repos.d/CentOS-Base-aliyun.repo http://mirrors.aliyun.com/repo/Centos-7.repo
 wget -O CentOS-ustc.repo https://lug.ustc.edu.cn/wiki/_export/code/mirrors/help/centos?codeblock=3
 

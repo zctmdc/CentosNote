@@ -1,7 +1,7 @@
 #mkdir /opt/centos-yum.bak
 #mv /etc/yum.repos.d/* /opt/centos-yum.bak/
 wget -O /etc/yum.repos.d/CentOS-Base-aliyun.repo http://mirrors.aliyun.com/repo/Centos-7.repo
-wget -O CentOS-ustc.repo https://lug.ustc.edu.cn/wiki/_export/code/mirrors/help/centos?codeblock=3
+#wget -O CentOS-ustc.repo https://lug.ustc.edu.cn/wiki/_export/code/mirrors/help/centos?codeblock=3
 
 #添加 rpmforge 源
 #Remirepo：对于RHEL和CentOS，依赖关系位于主存储库和EPEL中。我强烈建议不要使用Rpmforge（臭名昭着的与EPEL不兼容）。
